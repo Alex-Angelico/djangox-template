@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     # Local
     'accounts',
     'pages',
+    'djangox_app.apps.DjangoxAppConfig'
 ]
 
 # MIDDLEWARE
