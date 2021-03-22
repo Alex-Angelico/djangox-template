@@ -1,0 +1,13 @@
+{% extends '_base.html' %}
+{% block content %}
+<h1>{{person.name}}</h1>
+<h3>Details</h3>
+<p>{{person.description}}</p>
+<h4>Managed by: {{person.profile_manager}}</h4>
+<a href="{% url 'person_update' person.pk%}">Update Personal Details</a>
+<br>
+<a href="{% url 'person_delete' person.pk%}">Detele Person</a>
+
+<h4><a href="{% url 'person_list' %}">Back to People</a></h4>
+
+{% endblock content %}

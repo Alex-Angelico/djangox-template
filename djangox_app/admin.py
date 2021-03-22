@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models import Djangox
+from .models import Person
 
 # Register your models here.
 
-admin.site.register(Djangox)
+admin.site.register(Person)

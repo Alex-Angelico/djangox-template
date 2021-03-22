@@ -1,8 +1,8 @@
 # README
 
-## Django CRUD
+## DjangoX
 
-Lab 28 - DjangoX Custom User
+Lab 29 - DjangoX Custom User
 
 Author: Alex Angelico
 
@@ -16,7 +16,7 @@ https://github.com/Alex-Angelico/djangox-template/pull/1
 
 ## Description
 
-Create a full CRUD django project using DjangoX
+Create a full CRUD django project with a custom user using DjangoX.
 
 ----
 
@@ -40,4 +40,5 @@ Within ```djangox-template```, use ```python manage.py runserver``` and navigate
 
 ## Change Log
 
+1.0: *Custom user model and other features complete* - 21 Mar 2021
 0.1: *Basic project wiring complete.* - 11 Mar 2021
