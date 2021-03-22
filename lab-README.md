@@ -40,5 +40,5 @@ Within ```djangox-template```, use ```python manage.py runserver``` and navigate
 
 ## Change Log
 
-1.0: *Custom user model and other features complete* - 21 Mar 2021
+1.0: *Custom user model and other features complete* - 21 Mar 2021  
 0.1: *Basic project wiring complete.* - 11 Mar 2021
