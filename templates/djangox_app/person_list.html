@@ -1,7 +1,7 @@
 {% extends '_base.html' %}
 {% block content %}
 <h1>People</h1>
-<a href="{% url 'person_create' %">+ Add a Person</a>
+<a href="{% url 'person_create' %}">+ Add a Person</a>
 
 <ul>
   {% for person in object_list %}
