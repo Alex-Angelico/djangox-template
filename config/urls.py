@@ -6,6 +6,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
     path('', include('pages.urls')),
+    path('djangox_app/', include('djangox_app.urls'))
 ]
 
 if settings.DEBUG:
